@@ -4,3 +4,8 @@ git add .
 git commit -m "Initialize repository"
 git remote add origin https://github.com/abeanime/core.git
 git push --set-upstream origin master
+
+
+git add .
+git commit -m "最近更新"
+git push

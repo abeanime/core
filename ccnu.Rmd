@@ -150,21 +150,14 @@ knitr::include_graphics("pic/1.svg")
 ```{r echo=FALSE,out.width="70%",fig.align='center'}
 knitr::include_graphics("pic/2.svg")
 ```
-
-
-
 ]
 
-.panel[.panel-name[2.3、营商环境的指标构建]
+.panel[.panel-name[2.3、营商环境指标构建的思路]
 
 ```{r echo=FALSE,fig.align='center'}
 knitr::include_graphics("pic/3.svg")
 ```
-
-
 ]
-
-
 
 
 ]
