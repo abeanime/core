@@ -1,0 +1,186 @@
+---
+title: "营商环境内涵与指标体系构建"
+  
+author: 
+  - "张沐"
+  - "程烺"
+date: '`r Sys.Date()`'
+institute: "<br> 华中师范大学<br>经济与工商管理学院"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countdown: 60000
+      navigation :
+        click: false 
+        scroll: false
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+library(xaringanExtra)
+library(xaringanthemer)
+
+library(xaringanthemer)
+library(xaringanthemer)
+xaringanExtra::use_editable()
+xaringanExtra::use_panelset()
+xaringanExtra::use_clipboard()
+xaringanExtra::use_tile_view()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_share_again()
+xaringanExtra::use_xaringan_extra()
+xaringanExtra::use_search(show_icon = TRUE)
+xaringanExtra::use_extra_styles(hover_code_line = T,mute_unhighlighted_code = T)
+
+xaringanExtra::use_logo(image_url = "https://www.ccnu.edu.cn/__local/7/B7/24/0EA1E510D6F171BBEA51CFF88E8_A12ECAAB_5EDF.jpg",
+link_url = "https://www.ccnu.edu.cn/",
+position = xaringanExtra::css_position(top = "0.3em", right = "0.3em"),
+width = "100px",height ="100px")
+
+
+xaringanthemer::style_duo_accent(
+  primary_color = "#1B7386",
+  secondary_color = alpha("white"),
+  code_font_family = "Menlo",
+  code_inline_color = alpha("gold",0.8),
+  text_slide_number_color = alpha("firebrick"),
+  code_font_size = "15px"
+  )
+```
+
+
+```{r xaringan-logo,echo = F}
+xaringanExtra::use_logo(
+  image_url = "https://www.ccnu.edu.cn/__local/7/B7/24/0EA1E510D6F171BBEA51CFF88E8_A12ECAAB_5EDF.jpg",
+  link_url = "https://www.ccnu.edu.cn/",
+  position = xaringanExtra::css_position(top = "0.3em", right = "1em"),
+  width = "100px",height ="100px" 
+)
+```
+
+
+<style>
+  .title {
+    border-radius:9px;
+    border-bottom: 4mm ridge #FF6978;
+  }
+</style>
+
+
+# 1、招商引资
+
+
+```{r echo=F}
+xaringanExtra::style_panelset_tabs(
+  active_foreground = "#0051BA",
+  hover_foreground = "#d22"
+)
+```
+
+
+#### 核心观点：优化营商环境是政府履行经济发展职能的新型方式（而传统方式是招商引资）。
+
+
+
+.panelset[
+
+.panel[.panel-name[1.1、招商引资的背景]
+1978年改革开放之初，中国面临着僵化的计划经济体制、集体经济的意识形态、庞大而低效的国有企业。为打破传统的经济体制，建构现代市场，实现资本的原始积累，政府要不断地向市场和社会放权， 同时提供产权保护和必要的政策环境支持， 建设企业发展需要的公共产品。
+]
+
+.panel[.panel-name[1.2、招商引资的理论]
+
+```{r echo=FALSE}
+knitr::include_graphics("pic/1.svg")
+```
+
+传统时期地方政府与企业的互动关系，主要是通过招商引资行为实现的，地方政府通过搭建经济发展的产业园，提供尽可能到位的服务和政策，吸引具有市场竞争力的潜在投资者。企业借助于政府的扶持，在市场竞争中占据政策优势，从而实现地区 GDP 的稳定增长，地方官员也通过高增长的经济指标成为官场竞争的胜出者。
+]
+
+.panel[.panel-name[1.3、招商引资的弊端]
+
+在改革开放初期，因我国经济内生动力不足，市场和社会组织发育不成熟，解决了地方建设资金不足的问题，招商引资拉动了GDP高速增长，促进了产业结构调整，缓解了就业压力。但在肯定招商引资合理性和积极作用的基础上， 必须认识到招商引资所带来的一系列后果。例如：
+
+- 唯GDP论，招商引资项目的过多、过滥；
+- 官员以发展经济为由，利用手中权利寻租；
+- 突破底线的政策扶持；
+- 对破坏生态环境的默许；
+- 产能效率低下的企业的引入，不利于产业结构转型；
+- ...
+
+
+
+
+<span style='color:red'>招商引资的本质依然是政府错位、越位和缺位的经济职能履行方式。 在国内、国际经济环境转变的背景下，政府应该逐步从招商引资的一线退出来，实现政府职能的归位，淡出招商引资的主体地位，变“政府招商”为“中介招商”或“企业招商”。</span>
+
+]
+
+]
+
+
+
+---
+# 2、营商环境
+
+
+.panelset[
+
+.panel[.panel-name[2.1、优化营商环境的意义]
+
+40 余年过去，中国已经成为全球第二大经济体，经济发展进入新常态，廉价劳动力、大量土地供应、容忍环境破坏以及各种优惠政策带来的低成本优势逐步消退。传统地方政府围绕“经济增长”的竞争模式，随着国家与社会关系变化以及中央政府政策的调整，获取经济收益的空间正日益缩小，付出的成本却日益增高。
+
+而有效的区域竞争依赖于如下因素：
+
+- 地方政府保护其产品市场和设立贸易壁垒的能力；
+- 地方政府对竞争压力反应决策的权威程度；
+- 竞争者的多少；
+- 履行契约和产品运输的成本等。
+
+这些既是地方政府具有持续竞争力的核心因素，也是优化营商环境的政策制定导向。当今地方政府间的竞争已由依靠特殊优惠政策以低成本要素的单一策略，转变为建设政务环境、法治环境、市场环境以及国际化环境的综合博弈，优化营商环境已经成为提升地方政府治理体系和治 理能力现代化的重要突破口、主抓手。
+
+]
+
+.panel[.panel-name[2.2、营商环境与招商引资]
+<br>
+
+```{r echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics("pic/2.svg")
+```
+]
+
+.panel[.panel-name[2.3、营商环境的指标构建]
+
+```{r echo=FALSE,fig.align='center'}
+knitr::include_graphics("pic/3.svg")
+```
+]
+
+
+]
+
+
+
+
+
+---
+# 3、
+
+
+
+---
+class:center inverse
+
+# 感谢您的聆听！
+### <span style='color:steelblue'>敬请批评指正</span>
+
+
+
+```{r, echo=FALSE, fig.align='center', out.width='55%'}
+knitr::include_graphics("pic/logo.jpg")
+```
+
+
