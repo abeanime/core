@@ -3,7 +3,7 @@
     "path": "~/Desktop/xaringan_temp-master/ccnu.Rmd",
     "project_path": "ccnu.Rmd",
     "type": "r_markdown",
-    "hash": "1530690382",
+    "hash": "1145729254",
     "contents": "",
     "dirty": false,
     "created": 1617429324334.0,
@@ -17,11 +17,11 @@
         "docOutlineSize": "322"
     },
     "folds": "22|27|52|0|\n55|29|62|0|\n86|13|91|0|\n",
-    "lastKnownWriteTime": 1623059894,
+    "lastKnownWriteTime": 1623079435,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1623059894201,
+    "last_content_update": 1623079435915,
     "read_only": false,
     "read_only_alternatives": []
 }
